@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mobilepass.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div id="main-page">
+   <div id="header">
+    <div id="nav">
+        <div id="contact">
+            <i class="ri-user-fill"></i>
+        </div>
+        <h3>Easy Yatra</h3>
+
+    </div>
+
+   <div id="layer">
+    <div id="contact-page">
+        <div id="signin-user">
+         <div id="icon-i">
+            <i class="ri-user-fill"></i>
+         </div>
+            <div id="user">
+                <h2>Sign in /Register</h2>
+                <h5>To See Your Tickets and Passes</h5>
+            </div>
+       
+
+        </div>
+        <div id="options">
+            <div class="elem">
+                <i class="ri-ticket-2-fill"></i>
+                <h3>Your Tickets / Passes</h3>
+            </div>
+
+            <div class="elem">
+                <i class="ri-star-fill"></i>
+                <h3>Your Favourite</h3>
+            </div>
+            <div class="elem">
+                <i class="ri-map-pin-fill"></i>
+                <h3> Change City</h3>
+            </div>
+            <div class="elem">
+                <i class="ri-question-mark"></i>
+                <h3>Support</h3>
+            </div>
+            <div class="elem">
+                <i class="ri-global-line"></i>
+                <h3>Change Language</h3>
+            </div>
+            <div id="close">
+                <i class="ri-close-fill"></i>
+            </div>
+        </div>
+    </div>
+   
+   </div>
+<div class="search-container">
+        <input type="text" id="search-bar" placeholder="&#128269; Search...">
+       
+      </div>
+     <div id="tickets-text">
+      <div id="text">
+        <h3>Buy Bus Tickets / Passes</h3>
+        <button>see all</button>
+      </div>
+
+      <div id="layer2">
+       <div id="icon">
+        <h1>Select Trip</h1>
+        <i class="ri-arrow-right-line"></i>
+       </div>
+       <div id="component">
+         <h2>Enter Route Number </h2>
+       </div>
+       <div id="component">
+        <h2>Enter Start Stop </h2>
+      </div>
+      <div id="component">
+        <h2>Enter end Stop</h2>
+      </div>
+      <div id="close2">
+        <i class="ri-close-fill"></i>
+    </div>
+      <button>Next</button>
+      </div>
+        <div id="tickets-passes">
+            <div class="ticket">
+                <h3>&#127915;</h3>
+                <h3>One Way Ticket</h3>
+            </div>
+             <div class="ticket">
+             <h3>&#128655;</h3>
+                <h3>Bus Passes</h3>
+             </div>
+
+        </div>
+     </div>
+   </div>
+   <div id="second-part">
+    <div id="bus-stop">
+        <h1>Nearest Bus Stop</h1>
+        <div id="busses">
+           <div id="bus-1">
+            <div id="bus-info">
+                <div id="bus-icon">
+                    <i class="ri-bus-2-fill"></i>
+                </div>
+                    <h4>Bharat Talkies</h4>
+    
+                </div>
+                <h3> 3 min</h3>
+           </div>
+            <button>Next Busses</button>
+
+          <div class="bus-2">
+            <div class="bus">
+                <i class="ri-bus-2-fill"></i>
+              <div class="text-info">
+                <h4>208</h4>
+                <h5>To Kokta</h5>
+              </div>
+            </div>
+            <h3>in 28 min</h3>
+          </div>
+            <hr>
+            <div class="bus-2">
+                <div class="bus">
+                    <i class="ri-bus-2-fill"></i>
+                    <div class="text-info">
+                        <h4>113</h4>
+                        <h5>To Ashoka Garden</h5>
+                      </div>
+                </div>
+                <h3>in 21 min</h3>
+            </div>
+            <hr>
+          <div class="bus-2">
+            <div class="bus">
+                <i class="ri-bus-2-fill"></i>
+                <div class="text-info">
+                    <h4>115</h4>
+                    <h5>To Lalghati</h5>
+                  </div>
+            </div>
+            <h3>in 2 min</h3>
+          </div>
+          <hr>
+          <button>See All Busses</button>
+        </div>
+        <h1>busses arround you</h1>
+        <img src="https://i.stack.imgur.com/HILmr.png" alt="">
+        
+    </div>
+
+   </div>
+    </div>
+    <script>
+        var conticon = document.querySelector("#nav #contact")
+var contpage = document.querySelector("#layer")
+var contclose = document.querySelector("#close")
+
+conticon.addEventListener("click", function(){
+    contpage.style.display = "initial"
+})
+contclose.addEventListener("click" , function(){
+    contpage.style.display = "none"
+})
+
+
+var conticon = document.querySelector("#nav #contact")
+var contpage = document.querySelector("#layer2")
+var contclose = document.querySelector("#close")
+
+conticon.addEventListener("click", function(){
+    contpage.style.display = "initial"
+})
+contclose.addEventListener("click" , function(){
+    contpage.style.display = "none"
+})
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+#main-page{
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+}
+#header{
+    background-color: #fff;
+}
+
+#nav{
+    width: 100%;
+    height: 7vw;
+    padding: .5vw  3vw ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: cornflowerblue;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+   
+}
+#nav h3{
+/* background-color: blue; */
+margin-left: 42vw;
+/* text-transform: uppercase; */
+font-size: 1.8vw;
+font-weight: 900;
+}
+#nav #contact{
+    border-radius: 50%;
+    background-color: #fff;
+    padding: .5vw ;
+ 
+}
+#nav #contact i{
+    font-size: 1.5vw;
+
+}
+#layer{
+    width: 100%;
+    height: 100%;
+    background-color: #00000057;
+    position: absolute;
+ top: 0;
+ z-index: 999;
+ display: none;
+
+
+   
+}
+#contact-page{
+
+    width: 27%;
+    height: 100%;
+background-color: #fff;
+    transition: all ease 1s;
+    
+}
+#signin-user{
+    width: 100%;
+  padding: 1vw .5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1vw 1vw 1vw #55555551;
+    background-color: #fff;
+
+}
+#icon-i{
+    background-color: #000;
+    padding: .5vw;
+    border-radius: 50%;
+    transition: all ease 0.5s;
+}
+#signin-user i{
+    font-size: 3vw;
+    color: #fff;
+     
+
+}
+#signin-user #user h2{
+font-size: 1.5vw;
+font-weight: 500;
+text-transform: capitalize;
+
+}
+#signin-user #user h5{
+    margin-top: .5vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #777;
+}
+#options{
+    width: 100%;
+    margin-top: .5vw;
+    background-color: #fff;
+}
+.elem{
+   
+    padding: 1vw 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vw;
+}
+.elem i{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+.elem h3{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+#close{
+    width: 3vw;
+ margin-top: 2vw;
+margin-left: 10vw;
+ background-color: #000;
+ border-radius: 50%;
+}
+#close i{
+    font-size: 3vw;
+    color: #fff;
+}
+
+
+
+.search-container {
+    position: relative;
+  }
+  
+  #search-bar {
+    margin-top: -4vw;
+    border: none;
+    outline: none;
+    box-shadow: 1vw 1vw 1vw #55555551;
+    border-radius: 3vw;
+    margin-left: 2vw;
+    width: 95%;
+    padding: 1vw;
+    font-size: 16px;
+  }
+  
+  
+  
+  #search-text {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+  }
+  #tickets-text{
+    padding: 2vw ;
+  }
+  #tickets-text>h3{
+    font-size: 2vw;
+    font-weight: 500;
+    text-transform: capitalize;
+
+  }
+  #text{
+    padding: 1vw 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #text button{
+    background-color: transparent;
+    color: cornflowerblue;
+    font-size: 1.3vw;
+    font-weight: 500;
+    border: none;
+  }
+  #layer2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+  }
+  
+  #layer2 h1
+  {
+    font-size: 25px;
+    font-family: sans-serif;
+  }
+  #layer2 #icon
+  {
+   height: 10%;
+   width: 100%;
+   background-color: transparent;
+   border-bottom: 1px solid rgb(83, 80, 80);
+   display: flex;
+   align-items: center;
+   padding: 0px 20px;
+     
+  }
+  #icon i
+  {
+    margin-left: 20px;
+    font-size: 22px;
+   
+  }
+  #component
+  { 
+    margin-top: 20px;
+   padding: 20px 20px;
+   border-bottom: 1px solid black;
+  }
+  #layer2 button
+  {
+    height: 7%;
+    width: 100%;
+    background-color: blue;
+    border: none;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #tickets-passes{
+    padding: .9vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1vw;
+  }
+  .ticket{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1vw;
+  
+    padding: .4vw .3vw;
+    border-radius: .5vw;
+    box-shadow: 1vw 1vw 1vw 1vw #55555524;
+    background-color: #fff;
+  }
+.ticket h3:nth-child(1){
+    font-size: 2vw;
+    color: darkkhaki;
+  
+}
+.ticket h3:nth-child(2){
+    font-size: 1.3vw;
+    font-weight: 400;
+
+}
+
+#second-part{
+    background-color: #fff;
+   margin-top: 1vw;
+}
+#bus-stop{
+    padding: 1vw 2vw;
+}
+#bus-stop h1{
+   padding-top: 3vw;
+    font-size: 2vw;
+    font-weight: 500;
+    text-transform: capitalize;
+ padding-bottom: 1vw;
+}
+#busses{
+    margin-top: 1vw;
+    width: 99%;
+padding: 1vw 2vw;
+   border-radius: .5vw;
+   box-shadow: 1vw 1vw 1vw 1vw #5555551d;
+
+}
+#bus-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#bus-1 h3{
+    font-size: 1.3vw;
+    font-weight: 500;
+text-transform: capitalize;
+}
+#bus-info{
+    /* padding: 1.5vw; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1vw;
+}
+#bus-icon{
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    padding: .3vw .4vw;
+}
+#bus-info h4{
+    font-size: 1.4vw;
+    font-weight: 600;
+}
+#busses button{
+  
+    margin: 1.5vw 0;
+    background-color: #7777771d;
+    border: none;
+    border-radius: .4vw;
+    color: #777;
+    padding: .4vw;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.bus-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.bus-2 h3{
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: rgba(67, 67, 252, 0.737);
+    text-transform: capitalize;
+}
+.bus{
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5vw;
+}
+.text-info h4{
+    margin: .5vw 0;
+    font-size: 1.5vw;
+    font-weight: 500;
+
+
+}
+.text-info h5{
+    text-transform: capitalize;
+    font-size: 1.2vw;
+    font-weight: 400;
+    color: #777;
+}
+#busses button:nth-child(9){
+ background-color: transparent;
+color: cornflowerblue;
+font-size: 1.2vw;
+font-weight: 500;
+ width: 100%;
+  
+}
+#bus-stop img{
+    margin-top: 1vw;
+    width: 100%;
+ height: 30vw;
+}
